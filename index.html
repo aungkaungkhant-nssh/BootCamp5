@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">FrontEnd BootCamp</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarmenu">
@@ -33,7 +33,7 @@
         </div>
     </nav>
     <!-- Showcase -->
-    <section class="bg-dark text-light text-center p-5 text-sm-start p-lg-0">
+    <section class="bg-dark text-light text-center p-5 text-sm-start p-lg-0 mt-5">
         <div class="container">
             <div class="d-md-flex align-items-center justify-content-between flex-md-column flex-lg-row">
                 <div>
@@ -59,7 +59,7 @@
         </div>
     </section>
     <!-- grid -->
-    <section class="text-white p-3">
+    <section class="text-white p-3" >
         <div class="container">
             <div class="row">
                 <div class="col-md">
@@ -96,7 +96,7 @@
         </div>
     </section>
     <!-- learnsection -->
-    <section class="p-5">
+    <section class="p-5" id="learn">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md">
@@ -120,6 +120,77 @@
                     <img src="./react1.png" alt="">
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- Question -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h1 class="text-center">Frequently Asked Questions</h1>
+            <div class="accordion mt-4" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#question1" aria-expanded="true" aria-controls="question1">
+                      Where exactly are you located?
+                    </button>
+                  </h2>
+                  <div id="question1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda harum veniam, illo voluptates doloribus voluptate deleniti rerum neque? Quasi aspernatur eveniet earum dolorum tempora rerum rem, molestias veritatis alias provident!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questiontwo" aria-expanded="false" aria-controls="questiontwo">
+                      How much does it cost to attend?
+                    </button>
+                  </h2>
+                  <div id="questiontwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda harum veniam, illo voluptates doloribus voluptate deleniti rerum neque? Quasi aspernatur eveniet earum dolorum tempora rerum rem, molestias veritatis alias provident!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question3" aria-expanded="false" aria-controls="question3">
+                      What do I need To Know?
+                    </button>
+                  </h2>
+                  <div id="question3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question4" aria-expanded="false" aria-controls="question4">
+                        What do I sign up?
+                      </button>
+                    </h2>
+                    <div id="question4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda harum veniam, illo voluptates doloribus voluptate deleniti rerum neque? Quasi aspernatur eveniet earum dolorum tempora rerum rem, molestias veritatis alias provident!
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question5" aria-expanded="false" aria-controls="question5">
+                        Do you help me find a job?
+                      </button>
+                    </h2>
+                    <div id="question5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda harum veniam, illo voluptates doloribus voluptate deleniti rerum neque? Quasi aspernatur eveniet earum dolorum tempora rerum rem, molestias veritatis alias provident!
+                      </div>
+                    </div>
+                    
+                  </div>
+              </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
